@@ -1,0 +1,7 @@
+body{
+    background-color: black;
+    color:blue;
+    display:flex;
+    justify-items: center;
+}
+
