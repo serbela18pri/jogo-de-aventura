@@ -1,7 +1,22 @@
-body{
-    background-color: black;
-    color:blue;
-    display:flex;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+    background-color: lightblue;
+    color: blue;
+    display: flex;
     justify-items: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+    font-family: playfair display;
+
+
 }
 
+button {
+    background_color: #64A712;
+    color:a
+    black;
+   font-family: playfair display
+}
