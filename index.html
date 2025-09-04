@@ -1,23 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=a, initial-scale=1.0">
-    <title>aventura</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <main>
-        <div class="paso ativo" id="passo-0">
-            <p>um dia desse eu estava passeando por uma estrada quando achei portal no chão, onde eu tinha que decidir dos caminhos</p>
-            <button class="btn-proximo" data-proximo="1">Imbituva</button>
-            <button class="btn-proximo" data-proximo="1">Ponta Grossa</button>
-        </div>
-        <div class="paso ativo" id="passo-1">
-            <p> voce começa a sua jornada indo para o posto do chicão</p>
-            <button class="btn-proximo" data-proximo="1">procurar a pista perto do pavilhão de malhas</button>
-            <button class="btn-proximo" data-proximo="1">desistir e voltar para a casa</button>
-        </div>
-    </main>
-<script.src="script.js"></script.>
+<!DOCTYPE html>   
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+            
+            <main>
+                <div class="passo ativo" id="passo-0">
+                    <img src="cenario-passo0.png" alt="">
+                    <p>um dia desse eu estava passeando por uma estrada quando achei portal no chão, onde eu tinha que decidir
+                        dos caminhos</p>
+                    <button class="btn-proximo" data-proximo="1">Imbituva</button>
+                    <button class="btn-proximo" data-proximo="1">Ponta Grossa</button>
+                </div>
+                <div class="passo" id="passo-1">
+                    <p> voce começa a sua jornada indo para o posto do chicão</p>
+                    <button class="btn-proximo" data-proximo="1">procurar a pista perto do pavilhão de malhas</button>
+                    <button class="btn-proximo" data-proximo="1">desistir e voltar para a casa</button>
+                </div>
+            </main>
+            <script src="script.js"></script>
+        </body>
 </html>
